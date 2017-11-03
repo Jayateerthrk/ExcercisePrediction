@@ -108,3 +108,10 @@ plot(fit2,main = "Fit using Random Forests")
 ```
 
 From the consuiosn matrix, it is found that accuracy rate is ***0.99.This model is more accurate.***
+
+###Apply prediction model to 20 test cases
+```{r }
+predTesting<-predict(fit2,testingData)
+predTesting
+
+```
